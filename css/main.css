@@ -92,3 +92,10 @@ li
     width: 512x;
     height: 256px;
 } 
+
+.Video
+{
+    
+width: 1000px;
+height: max-content;
+}
