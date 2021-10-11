@@ -1,5 +1,6 @@
 body
 {
+    font-family: 'Alfa Slab One', cursive;
     background-color: lemonchiffon;
     color:black;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -34,7 +35,7 @@ h4
 }
 
 .information__block{
-
+    font-family: 'Alfa Slab One', cursive;
   display: flex;
   text-align: center;
   align-items: center;
