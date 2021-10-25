@@ -8,9 +8,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Лабораторна робота №2</title>
-    
+
     <script src="/js/jquery.js"> </script>
-    
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <link rel="stylesheet" href="./css/owl.carousel.min.css">
     <link rel="stylesheet" href="./css/owl.theme.default.min.css">
@@ -19,17 +19,32 @@
     <link rel="stylesheet" href="css/main.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald">
     <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@200&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,600&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Birthstone&display=swap" rel="stylesheet">
-<script src="/js/owl.carousel.min.js"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+        integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+        integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+        
+    <script src="/js/owl.carousel.min.js"></script>
     <script>
         $(function () {
             $("#accordion").accordion();
         });
     </script>
-    
+
 </head>
 
 <body>
@@ -51,6 +66,7 @@
             </div>
             <div class="information__block">
                 <img src="image/lazania.jpg" alt="lazaniaAAAAA" class="information__block-image">
+                <img src="image/newFile.svg" alt="newFile" class="s">
                 <p class="information__block-text">
                     Лаза́нья (італ. lasagne) — традиційна страва італійської кухні, приготована з шарів тіста (листів
                     лазаньї) разом із шарами начинки, залитими соусом (зазвичай бешамель). Шари начинки можуть бути з
@@ -115,8 +131,9 @@
                 <script type="text/javascript" src="https://anekdotytoday.net/informery-u8/anekdot.php"></script>
             </div>
 
-
+            <h1>Accordion</a></h1>
             <div id="accordion">
+                
                 <h3>Історія</h3>
                 <div>
                     <p>
@@ -177,24 +194,47 @@
                 });
 
             </script>
-
-            <div class="owl-carousel">
-
-                <img src="/image/1.jpg">
-
-                <img src="/image/2.jpg">
-
-                <img src="/image/3.jpg">
-
-                <img src="/image/4.jpg">
-
-                <img src="/image/5.jpg">
-
+            <h1>Owl Carousel</a></h1>
+            <div class="owl-carousel owl-theme">
+    
+                <div class="item">
+                    <img src="image/1.jpg">
+                </div>
+                <div class="item">
+                    <img src="image/2.jpg">
+                </div>
+                <div class="item">
+                    <img src="image/3.jpg">
+                </div>
+                <div class="item">
+                    <img src="image/4.jpg">
+                </div>
+                <div class="item">
+                    <img src="image/5.jpg">
+                </div>
+    
             </div>
-            <script src="./js/jquery.js"></script>
-            <script src="./js/owl.carousel.min.css"> </script>
-            <script src="./js/script.js"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+            <script type="text/javascript">$('.owl-carousel').owlCarousel({
+                loop:true,
+                margin:10,
+                nav:true,
+                responsive:{
+                    0:{
+                        items:1
+                    },
+                    600:{
+                        items:3
+                    },
+                    1000:{
+                        items:5
+                    }
+                }
+            })</script>
         </div>
+
+        
+    </div>
     </div>
 
 
